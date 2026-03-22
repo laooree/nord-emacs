@@ -710,7 +710,16 @@
     `(ivy-remote ((,class (:foreground ,nord14))))
 
     ;; > perspective
-    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
+    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))
+
+    ;; > orderless
+    `(orderless-match-face-0 ((,class (:foreground ,nord14 :weight bold))))
+    `(orderless-match-face-1 ((,class (:foreground ,nord14 :weight bold))))
+    `(orderless-match-face-2 ((,class (:foreground ,nord14 :weight bold))))
+    `(orderless-match-face-3 ((,class (:foreground ,nord14 :weight bold))))
+    ))
+
+
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
